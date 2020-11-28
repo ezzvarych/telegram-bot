@@ -39,7 +39,7 @@ public class MyBot extends TelegramLongPollingBot {
 
     @Override
     public String getBotToken() {
-        return botUsername;
+        return botToken;
     }
 
     @SneakyThrows
